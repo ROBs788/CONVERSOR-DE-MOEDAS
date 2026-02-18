@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV CLUB - CONVERSOR DE MOEDAS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link class="dolar-hoje" src="https://share.google/kyy1bjigjCsUVBM6i">
+</head>
+
+<body>
+    <div class="wrapper">
+        <img class="logo" src="./assets/logo.gif" alt="logo-devclub-convert-money">
+
+        <div class="main">
+            <div class="relocator">
+                <p id="paragraph">Converter <b>de</b></p>
+                <select class="currency-select-1" type="text" id="input-select" placeholder="Valor em reais">
+                    <option value="BRL">R$ Real Brasileiro</option>
+                    <option value="USD">US Dólar Americano</option>
+                    <option value="EUR">€ Euro</option>
+                    <option value="GBP">£ Libra Esterlina</option>
+                </select>
+
+                <p id="paragraph">Converter <b>para</b></p>
+                <select class="currency-select-2" type="text" id="input-select" placeholder="Valor em Reais">
+                    <option value="USD">US Dólar Americano</option>
+                    <option value="BRL">R$ Real Brasileiro</option>
+                    <option value="EUR">€ Euro</option>
+                    <option value="GBP">£ Libra Esterlina</option>
+                </select>
+                
+                <P id="paragraph">Valor</P>
+
+                <input class="input-value input-currency" placeholder="Valor em Reais">
+
+                <button id="btn-convert" class="btn-convert convert-button">Converter</button>
+
+                <p id="result"></p>
+
+            </div> <!-- end relocator -->
+
+            <section class="box-result">
+                <div class="currency-container">
+                    <div class="currency-box">
+                        <img class="logo-brasil" src="./assets/brasil 2.png" alt="logo-moeda-a-converter">
+                        <p class="currency-identifier currency">Real Brasileiro</p>
+                        <P class="value currency-value-to-convert">R$ 0.00</P>
+                    </div>
+                    <img class="arrow" src="./assets/arrow.png" alt="seta">
+                    <div class="currency-box">
+                        <img class="logo-usa" src="./assets/estados-unidos (1) 1.png" alt="logo-moeda-convertida">
+                        <p class="currency-identifier currency">Dólar Americano</p>
+                        <P class="value currency-value">R$ 0.00</P>
+                    </div>
+
+                </div>
+            </section>
+
+
+        </div> <!-- end main -->
+
+    </div> <!-- end wrapper -->
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>

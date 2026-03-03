@@ -201,13 +201,13 @@ function changeCurrency() {
         }
     }
 }
+//===============================================
 
 
 
-
-//===============================
+//===============================================
 // EVENTOS
-//===============================
+//===============================================
 convertButton.addEventListener("click", changeCurrency)
 
 convertButton.addEventListener("click", convertValues)

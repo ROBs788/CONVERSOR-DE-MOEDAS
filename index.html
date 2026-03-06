@@ -5,67 +5,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEV CLUB - CONVERSOR DE MOEDAS</title>
+    <title>CONVERSOR DE MOEDAS</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link class="dolar-hoje" src="https://share.google/kyy1bjigjCsUVBM6i">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
-       
-</div>
-        <div class="main">
-            <div class="relocator">
-                <p id="paragraph">Converter <b>de</b></p>
-                <select class="currency-select-1" type="text" id="input-select" placeholder="Valor em reais">
-                    <option value="BRL">R$ Real Brasileiro</option>
-                    <option value="USD">US Dólar Americano</option>
-                    <option value="EUR">€ Euro</option>
-                    <option value="GBP">£ Libra Esterlina</option>
-                    <option value="BTC">₿ Bitcoin</option>
-                </select>
 
-                <p id="paragraph">Converter <b>para</b></p>
-                <select class="currency-select-2" type="text" id="input-select" placeholder="Valor em Reais">
-                    <option value="USD">US Dólar Americano</option>
-                    <option value="BRL">R$ Real Brasileiro</option>
-                    <option value="EUR">€ Euro</option>
-                    <option value="GBP">£ Libra Esterlina</option>
-                    <option value="BTC">₿ Bitcoin</option>
-                </select>
-                
-                <P id="paragraph">Valor</P>
+    </div>
+    <div class="header">
+        <h1 class="title">Conversor de Moedas</h1>
+    </div>
+    <div class="main">
+        <div class="relocator">
+            <p id="paragraph">Converter <b>de</b></p>
+            <select class="currency-select-1" type="text" id="input-select" placeholder="Valor em reais">
+                <option value="BRL">R$ Real Brasileiro</option>
+                <option value="USD">US Dólar Americano</option>
+                <option value="EUR">€ Euro</option>
+                <option value="GBP">£ Libra Esterlina</option>
+                <option value="BTC">₿ Bitcoin</option>
+            </select>
 
-                <input class="input-value input-currency" placeholder="Valor a ser convertido" type="number" id="input-value">
+            <p id="paragraph">Converter <b>para</b></p>
+            <select class="currency-select-2" type="text" id="input-select" placeholder="Valor em Reais">
+                <option value="USD">US Dólar Americano</option>
+                <option value="BRL">R$ Real Brasileiro</option>
+                <option value="EUR">€ Euro</option>
+                <option value="GBP">£ Libra Esterlina</option>
+                <option value="BTC">₿ Bitcoin</option>
+            </select>
 
-                <button id="btn-convert" class="btn-convert convert-button">Converter</button>
+            <P id="paragraph">Valor</P>
 
-                <p id="result"></p>
+            <input class="input-value input-currency" placeholder="Valor a ser convertido" type="number"
+                id="input-value">
 
-            </div> <!-- end relocator -->
-            <section class="box-result">
-                <div class="currency-container">
-                    <div class="currency-box">
-                        <img class="logo-brasil" src="./assets/brasil 2.png" alt="logo-moeda-a-converter">
-                        <p class="currency-identifier currency">Real Brasileiro</p>
-                        <P class="value currency-value-to-convert">R$ 0.00</P>
-                    </div>
-                    <img class="arrow" src="./assets/arrow.png" alt="seta">
-                    <div class="currency-box">
-                        <img class="logo-usa" src="./assets/estados-unidos (1) 1.png" alt="logo-moeda-convertida">
-                        <p class="currency-identifier currency-2">Dólar Americano</p>
-                        <P class="value currency-value">R$ 0.00</P>
-                    </div>
+            <button id="btn-convert" class="btn-convert convert-button">Converter</button>
 
+            <p id="result"></p>
+
+        </div> <!-- end relocator -->
+        <section class="box-result">
+            <div class="currency-container">
+                <div class="currency-box">
+                    <img class="logo-brasil" src="./assets/brasil 2.png" alt="logo-moeda-a-converter">
+                    <p class="currency-identifier currency">Real Brasileiro</p>
+                    <P class="value currency-value-to-convert">R$ 0.00</P>
                 </div>
-            </section>
+                <img class="arrow" src="./assets/arrow.png" alt="seta">
+                <div class="currency-box">
+                    <img class="logo-usa" src="./assets/estados-unidos (1) 1.png" alt="logo-moeda-convertida">
+                    <p class="currency-identifier currency-2">Dólar Americano</p>
+                    <P class="value currency-value">R$ 0.00</P>
+                </div>
+
+            </div>
+        </section>
 
 
-        </div> <!-- end main -->
+    </div> <!-- end main -->
 
     </div> <!-- end wrapper -->
 </body>
